@@ -25,15 +25,20 @@
 }
 
 .menu__link {
-  font-size: 0.917rem;
+  font-size: 1rem;
   line-height: 1.667rem;
   text-decoration: none;
+  font-family: var(--primary-font, 'Montserrat', sans-serif);
+  color: #2454A3;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 .menu__link:hover,
 .menu__link:focus,
 .menu__link:active {
   text-decoration: none;
+  color: #1DBFDF;
 }
 
 .menu__link--active-link,

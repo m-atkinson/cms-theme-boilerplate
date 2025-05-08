@@ -36,6 +36,9 @@
               "hidden_subfields": {
                 "opacity": true
               }
+            },
+            "default": {
+              "color": "#2454A3"
             }
           }
         ]

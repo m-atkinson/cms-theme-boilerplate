@@ -38,6 +38,14 @@
 {% set primary_color = theme.global_colors.primary.color  %}
 {% set secondary_color = theme.global_colors.secondary.color %}
 
+/* CSS Variables */
+:root {
+  --primary-color: {{ primary_color }};
+  --secondary-color: {{ secondary_color }};
+  --primary-font: {{ theme.global_fonts.primary.font }}, {{ theme.global_fonts.primary.fallback }};
+  --secondary-font: {{ theme.global_fonts.secondary.font }}, {{ theme.global_fonts.secondary.fallback }};
+}
+
 /* 1c. Typography */
 
 {% set primary_font = theme.global_fonts.primary %}
